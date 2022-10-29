@@ -18,11 +18,11 @@ on:
     inputs:
       ssh:
         description: 'SSH connection to Actions'
-        required: true
-        default: 'true'
+        required: false
+        default: 'false'
 
 env:
-  REPO_URL: https://github.com/kewaishu/237immortalwrt
+  REPO_URL: https://github.com/padavanonly/immortalwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/rmac2100.config
